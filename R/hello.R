@@ -2,7 +2,7 @@
 #'
 #'#' @export
 #'
-#' @param name (character) the name of the person we say hello to
+#' @param name the name of the person we say hello to
 
 hello <- function(name="") {
   trimws(paste("hello", name))
